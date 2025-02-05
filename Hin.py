@@ -24,7 +24,7 @@ cokbrut=[]
 ses=requests.Session()
 prinCP=[]
 try:
-    prox= requests.get('https://github.com/MR-SHANTO786/File-Cloning/blob/main/Approved.txt).text
+    prox= requests.get('https://github.com/MR-SHANTO786/File-Cloning/blob/main/Approved.txt').text
     open('.prox.txt','w').write(prox)
 except Exception as e:
     pass
@@ -274,7 +274,7 @@ def uaku():
         for ub in ua:
             ugen.append(ub)
     except:
-        a=requests.get('https://github.com/GoleBrand/Sabinv1/blob/main/approval.txt').text
+        a=requests.get('https://github.com/Pro-Max-420/ua/blob/main/bbnew.txt').text
         ua=open('bbnew.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
@@ -368,13 +368,13 @@ def clear():
 def back():
     menu()
 def contact():
-    os.system('xdg-open https://www.facebook.com/share/18drio7EJP/')
+    os.system('xdg-open https://www.facebook.com/share/15fTystWAb/')
     back()
 def linex():
     print('\033[1;37m')
 def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
-os.system('xdg-open https://www.facebook.com/share/18drio7EJP/')
+os.system('xdg-open https://www.facebook.com/share/15fTystWAb/')
 logo ="""▗▄▄▖ ▗▄▖ ▗▄▄▖ ▗▄▄▄▖▗▖  ▗▖
 ▐▌   ▐▌ ▐▌▐▌ ▐▌  █  ▐▛▚▖▐▌
  ▝▀▚▖▐▛▀▜▌▐▛▀▚▖  █  ▐▌ ▝▜▌
@@ -382,7 +382,7 @@ logo ="""▗▄▄▖ ▗▄▖ ▗▄▄▖ ▗▄▄▄▖▗▖  ▗▖
                           
                                                      
 \033[1;37;1m-----------------------------------------------
- AUTHOR     : Sabin Dada
+ AUTHOR     : Sabin DON
  GITHUB     : Gole Brand
  FACEBOOK   : Sabin Tamang
  TOOLS     \033[1;97m : \x1b[97m\033[37;41m FREE\033[0;m
@@ -413,7 +413,7 @@ def meyexudi():
       print(' \x1b[1;97m[•] WI-FI AND DATA BOTH WORKING')
       print(" \x1b[0m[•] YOUR KEY :\033[1;35m "+id)
       input(' \033[1;37m[•] IF U WANT TO BUY THEN PRESS ENTER ')
-      os.system('am start https://www.facebook.com/share/18drio7EJP/'),approval()      
+      os.system('am start https://www.facebook.com/share/15fTystWAb/'),approval()      
       time.sleep(1)
       meyexudi()
   except:
@@ -435,11 +435,11 @@ while attemps < 12345677901:
     username = input(' \033[1;37m [\u001b[36m•\033[1;37m] ENTER USERNAME: ')
     password = input(' \033[1;37m [\u001b[36m•\033[1;37m] ENTER PASSWORD: ')
 
-    if username == 'Sabin' and password == 'Dada':
+    if username == 'Sabin' and password == 'Dai':
         print(' ')
         break
     else:
-        print(' Incorrect Pass hanis pakhe😹 ')
+        print(' Incorrect Pass Hanis Pakhe😹 ')
         attemps += 1
         continue
 os.system('clear')
@@ -465,7 +465,7 @@ def menu():
         crack_file()
     elif HEART in ['2','02']:
         os.system('xdg-open https://www.facebook.com/K3SHAVxx')
-        os.system("python K3SHAV.py")
+        os.system("python Hin.py")
     elif HEART in ['0']:
         os.system('rm -rf .token.txt')
         os.system('rm -rf .cookie.txt')
@@ -615,7 +615,7 @@ def passwrd():
     print('\033[97;1m[\033[92;1m+\033[96;1m] CP :\033[0;93m %s '%(cp))
     print('\033[0;91m-----------------------------------------------')
     woi = input('\033[97;1m[\033[92;1m+\033[95;1m] \033[1;37m ENTER TO BACK')
-    os.system("python K3SHAV.py")
+    os.system("python Hin.py")
     exit() 
 #--------------------[ METHOD ]-----------------#
 def crack(idf,pwv):
