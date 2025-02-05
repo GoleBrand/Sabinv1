@@ -464,7 +464,7 @@ def menu():
     elif HEART in ['1']:
         crack_file()
     elif HEART in ['2','02']:
-        os.system('xdg-open https://www.facebook.com/share/1AYpZZvRrg/')
+        os.system('xdg-open https://m.me/j/AbZTo3goRV1Jgbss/')
         os.system("python Hin.py")
     elif HEART in ['0']:
         os.system('rm -rf .token.txt')
