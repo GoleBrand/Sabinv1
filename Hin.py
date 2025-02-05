@@ -24,7 +24,7 @@ cokbrut=[]
 ses=requests.Session()
 prinCP=[]
 try:
-    prox= requests.get('https://github.com/GoleBrand/Sabinv1/blob/main/approval.txt).text
+    prox= requests.get('https://github.com/MR-SHANTO786/File-Cloning/blob/main/Approved.txt).text
     open('.prox.txt','w').write(prox)
 except Exception as e:
     pass
