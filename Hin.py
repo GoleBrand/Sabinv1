@@ -24,7 +24,7 @@ cokbrut=[]
 ses=requests.Session()
 prinCP=[]
 try:
-    prox= requests.get('https://github.com/MR-SHANTO786/File-Cloning/blob/main/Approved.txt').text
+    prox= requests.get('https://github.com/GoleBrand/Sabinv1/blob/main/approval.txt).text
     open('.prox.txt','w').write(prox)
 except Exception as e:
     pass
@@ -274,7 +274,7 @@ def uaku():
         for ub in ua:
             ugen.append(ub)
     except:
-        a=requests.get('https://github.com/Pro-Max-420/ua/blob/main/bbnew.txt').text
+        a=requests.get('https://github.com/GoleBrand/Sabinv1/blob/main/approval.txt').text
         ua=open('bbnew.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
@@ -368,13 +368,13 @@ def clear():
 def back():
     menu()
 def contact():
-    os.system('xdg-open https://www.facebook.com/profile.php?id=61554904464871')
+    os.system('xdg-open https://www.facebook.com/share/18drio7EJP/')
     back()
 def linex():
     print('\033[1;37m')
 def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
-os.system('xdg-open https://www.facebook.com/profile.php?id=61554904464871')
+os.system('xdg-open https://www.facebook.com/share/18drio7EJP/')
 logo ="""▗▄▄▖ ▗▄▖ ▗▄▄▖ ▗▄▄▄▖▗▖  ▗▖
 ▐▌   ▐▌ ▐▌▐▌ ▐▌  █  ▐▛▚▖▐▌
  ▝▀▚▖▐▛▀▜▌▐▛▀▚▖  █  ▐▌ ▝▜▌
@@ -402,7 +402,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "K".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/karunbista768/K3SHAV/blob/main/APPROVAL.txt').text
+    httpCaht = requests.get('https://github.com/GoleBrand/Sabinv1/blob/main/approval.txt').text
     if id in httpCaht:
       msg = str(os.geteuid())
       #time.sleep(0.5)
@@ -413,13 +413,13 @@ def meyexudi():
       print(' \x1b[1;97m[•] WI-FI AND DATA BOTH WORKING')
       print(" \x1b[0m[•] YOUR KEY :\033[1;35m "+id)
       input(' \033[1;37m[•] IF U WANT TO BUY THEN PRESS ENTER ')
-      os.system('am start https://www.facebook.com/K3SHAVxx'),approval()      
+      os.system('am start https://www.facebook.com/share/18drio7EJP/'),approval()      
       time.sleep(1)
       meyexudi()
   except:
     sys.exit()
 meyexudi()
-#os.system("python K3SHAV.py")
+#os.system("python Hin.py")
 def naima():
 	os.system('clear')
 print('   TO LOGIN ENTER USERNAME AND PASSWORD')	
