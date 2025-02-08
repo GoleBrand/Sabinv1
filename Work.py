@@ -374,7 +374,7 @@ def linex():
     print('\033[1;37m')
 def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
-os.system('xdg-open https://www.facebook.com/share/15fTystWAb/')
+os.system('xdg-open https://m.me/j/AbZTo3goRV1Jgbss/')
 logo ="""▗▄▄▖ ▗▄▖ ▗▄▄▖ ▗▄▄▄▖▗▖  ▗▖
 ▐▌   ▐▌ ▐▌▐▌ ▐▌  █  ▐▛▚▖▐▌
  ▝▀▚▖▐▛▀▜▌▐▛▀▚▖  █  ▐▌ ▝▜▌
